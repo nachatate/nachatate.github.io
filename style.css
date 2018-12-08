@@ -1,0 +1,305 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+@import url('https://fonts.googleapis.com/css@family=Raleway_3A400');
+@import url('https://fonts.googleapis.com/css@family=Open+Sans_3A800');
+
+
+
+body {
+	background-color: dddddd;
+	background: url(images/body-back.jpg)repeat; no-repeat;
+	
+}
+
+
+.tabs{
+	width:94%;
+	margin:0 auto;
+
+}
+.tabs-info{
+	width:93%;
+	margin:0 auto;
+	padding-left:30px;
+}
+.tabs-pad{
+	padding:28px;
+	padding-left:70px;
+	color: white;
+	font-family: 'Raleway','Michroma', sans-serif;
+	font-size:16px;
+	
+	
+}
+
+.tabs-left{
+	width:88%;
+	float:left;
+	min-height: 90px;
+	
+}
+
+.tabs-right{
+	width:12%;
+	float:right;
+	min-height: 90px;
+	
+}
+
+#pr{
+	background: url(images/left-bar.png) no-repeat;
+}
+
+#pl{
+	background: url(images/p-right.png) no-repeat;
+}
+
+#sr{
+	background: url(images/left-bar.png) no-repeat;
+}
+#sl{
+	background: url(images/s-right.png) no-repeat;
+}
+
+#cr{
+	background: url(images/left-bar.png) no-repeat;
+}
+#cl{
+	background: url(images/c-right.png) no-repeat;
+	}
+
+#rr{
+	background: url(images/left-bar.png) no-repeat;
+}
+#rl{
+	background: url(images/r-right.png) no-repeat;
+}
+
+#fr{
+	background: url(images/left-bar.png) no-repeat;
+}
+#fl{
+	background: url(images/f-right.png) no-repeat;
+}
+
+.desc-text{
+	padding:20px;
+}
+
+#main {
+	margin:0 auto;
+	max-width:939px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	background-color: dcdcdc;
+}
+#wrapper{
+	background-color: white;
+	padding:15px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+
+#header{
+	
+}
+
+#mid-head .lbl-phone{
+	font-size: 22px;
+}
+
+#mid-head {
+    margin-top: 95px;
+    margin-left:5px;
+    color:black;
+    text-align: center;
+    max-width: 300px;
+}
+
+#mid-head label{
+	min-width: 200px;
+	margin-top: -3px;
+	text-align: center;
+	font-family: 'NexaBoldRegular','Raleway', sans-serif;
+	
+	font-size:16px;
+}
+
+
+
+
+#description{
+	margin: 0 auto;
+	min-height: 250px;
+	margin-top:40px;
+	margin-bottom:30px;
+	width: 96%;
+	max-width:848px;
+	background-color: white;
+	border-radius: 20px;
+	border: 1px solid #312524;
+	padding:15px;
+	
+	
+}
+
+
+
+
+
+.box-shadow{
+	box-shadow: 0 4px 2px -2px gray;
+}
+
+
+#footer{
+	width:100%;
+	margin:0 auto;
+	margin-top: 40px;
+	margin-bottom: -19px;
+		
+}
+.foot{
+	display:block;
+	margin: 0 auto;
+}
+
+
+/*Responsive Image Grid*/
+.img-row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+.column-one {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+    }
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+	.column-one {
+        -ms-flex: 100%; 
+        flex: 100%;
+        max-width: 100% !important;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+/*Responsive Image Grid*/
+
+
+@media (max-width: 898px){
+	#mid-head {
+    margin-top: 85px;
+    text-align: right;
+    }
+    #paylogo {
+    margin-top: 85px;
+    }
+    #description{
+	 margin-top: 0px;
+	}
+    
+}
+@media (max-width: 768px){}
+@media (max-width: 767px){
+	#header{
+	
+	
+	}
+   #mid-head {
+	margin:0 auto;
+    margin-top: -78px;
+    text-align: center;
+    color: #623800;
+    max-width: 100%;
+    margin-bottom: 20px;
+    }
+    #mid-head label {
+	font-size: 15px;
+	min-width: 0px;
+	line-height: 0px;
+	margin-top:10px;
+	 }
+    #logo{
+	margin-top: -30px;
+	margin-left:0px;
+	margin:0 auto;
+	
+	}
+	.no-pad{
+	padding-right:15px;
+	}
+	#mid-head .lbl-phone{
+	 font-size: 16px;
+	}
+	#description{
+	margin-top: 30px;
+	}
+	.img-lbl{
+		display:none;
+	}
+	#shop-promo{
+	background: url(images/shoppromo-b.jpg) no-repeat;
+	background-position: center;
+	
+	}
+	.ckout{
+		margin-left:0px;
+	margin:0 auto;
+	}
+}
+
+@media (max-width: 522px){
+	.tabs-pad{
+		font-size: 14px;
+		padding-left:50px;
+		
+	}
+	.tabs-left{
+	width:78%;
+	}	
+	.tabs-right{
+	width:22%;
+	}	
+}
+@media (max-width: 390px){
+	.tabs-pad{
+		font-size: 12px;
+		padding:24px;
+		padding-left:50px;
+		
+	}
+		
+}
+	
